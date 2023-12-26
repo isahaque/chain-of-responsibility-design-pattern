@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="LeaveApproval\" />
+    <Folder Include="ChequeApproval\" />
+  </ItemGroup>
+
 </Project>
