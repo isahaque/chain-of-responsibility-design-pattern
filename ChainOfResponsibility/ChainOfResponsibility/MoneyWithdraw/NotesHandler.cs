@@ -1,9 +1,9 @@
 ﻿namespace ChainOfResponsibility.MoneyWithdraw
 {
-    public abstract class Handler
+    public abstract class NotesHandler
     {
-        public Handler NextHandler;
-        public void SetNextHandler(Handler handler)
+        public NotesHandler NextHandler;
+        public void SetNextHandler(NotesHandler handler)
         {
             NextHandler = handler;
         }

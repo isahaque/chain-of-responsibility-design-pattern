@@ -1,6 +1,6 @@
 ﻿namespace ChainOfResponsibility.MoneyWithdraw
 {
-    public class OneThousandNoteHandler: Handler
+    public class OneThousandNoteHandler: NotesHandler
     {
         public override void DispatchNotesOfAmount(long requestedAmount)
         {

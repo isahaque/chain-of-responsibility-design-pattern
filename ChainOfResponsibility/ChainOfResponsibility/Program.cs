@@ -4,6 +4,6 @@ using ChainOfResponsibility.MoneyWithdraw;
 Console.WriteLine("Hello, World!");
 
 var atm = new Atm();
-atm.Withdraw(3400);
+atm.Withdraw(400);
 
 Console.ReadLine();
